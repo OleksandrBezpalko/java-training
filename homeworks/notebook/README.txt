@@ -1,0 +1,1 @@
+The program checks the correctness of the entered data using regular expressions.
