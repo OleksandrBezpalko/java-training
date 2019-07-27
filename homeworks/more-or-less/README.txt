@@ -1,0 +1,1 @@
+The program is implemented as a game in which you need to guess a random number.
