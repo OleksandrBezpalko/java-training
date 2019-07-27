@@ -1,0 +1,1 @@
+This task is implemented the program "Hello World" using the MVC pattern.
