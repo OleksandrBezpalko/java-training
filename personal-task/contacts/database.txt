@@ -1,0 +1,26 @@
+Name:
+Коля
+Surname:
+Іващенко
+Telephone:
++380897654834
+Skype:
+KolyaSkype
+Mail:
+KolyaPoshta@mail
+Facebook:
+KolyaNaFacebook
+New user
+Name:
+Діма
+Surname:
+Нечипуренко
+Telephone:
++380765643728
+Mail:
+Dima@ua
+Skype:
+DimaSkype
+Twitter:
+DimaTwitter
+New user
