@@ -5,11 +5,12 @@ import com.training.java.model.entities.contacts.Contact;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
-public class UserHendler {
-    private ArrayList<User> users;
+public class UserHandler {
+    private List<User> users;
 
-    public UserHendler (ArrayList<User> users){
+    public UserHandler(ArrayList<User> users){
         this.users = users;
     }
 
@@ -95,7 +96,7 @@ public class UserHendler {
         return result;
     }
 
-    public ArrayList<User> getUsers() {
+    public List<User> getUsers() {
         return users;
     }
 

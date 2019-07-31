@@ -2,14 +2,14 @@ package com.training.java.model;
 
 import com.training.java.model.database.DatabaseAccessObject;
 import com.training.java.model.entities.User;
-import com.training.java.model.servicies.UserHendler;
+import com.training.java.model.servicies.UserHandler;
 
 import java.util.ArrayList;
 
 public class Model {
     public User user = new User();
     private DatabaseAccessObject databaseAccessObject = new DatabaseAccessObject();
-    private UserHendler userHendler = new UserHendler(databaseAccessObject.readFromDatabase());
+    private UserHandler userHendler = new UserHandler(databaseAccessObject.readFromDatabase());
 
     public Model(){
     }

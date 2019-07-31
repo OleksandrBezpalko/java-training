@@ -6,9 +6,9 @@ import com.training.java.model.entities.contacts.Contact;
 import com.training.java.model.entities.contacts.Mail;
 import com.training.java.model.entities.contacts.Skype;
 import com.training.java.model.entities.contacts.Telephone;
-import com.training.java.model.entities.contacts.socialNetwork.Facebook;
-import com.training.java.model.entities.contacts.socialNetwork.SocialNetwork;
-import com.training.java.model.entities.contacts.socialNetwork.Twitter;
+import com.training.java.model.entities.contacts.social_network.Facebook;
+import com.training.java.model.entities.contacts.social_network.SocialNetwork;
+import com.training.java.model.entities.contacts.social_network.Twitter;
 import com.training.java.view.View;
 import com.training.java.view.constants.TextConstants;
 

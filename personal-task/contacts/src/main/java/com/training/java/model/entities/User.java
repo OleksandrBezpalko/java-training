@@ -3,11 +3,13 @@ package com.training.java.model.entities;
 import com.training.java.model.entities.contacts.Contact;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class User implements Comparable<User>{
     private String name;
     private String surname;
-    private ArrayList<Contact> contacts = new ArrayList<Contact>();
+    private List<Contact> contacts = new ArrayList<Contact>();
 
     public User (){
     }
@@ -22,9 +24,7 @@ public class User implements Comparable<User>{
     }
 
     public void addContact (Contact ...contactData){
-        for (Contact contact: contactData) {
-            contacts.add(contact);
-        }
+        Collections.addAll(contacts, contactData);
     }
 
     public String getName() {
@@ -35,7 +35,7 @@ public class User implements Comparable<User>{
         return surname;
     }
 
-    public ArrayList<Contact> getContacts() {
+    public List<Contact> getContacts() {
         return contacts;
     }
 

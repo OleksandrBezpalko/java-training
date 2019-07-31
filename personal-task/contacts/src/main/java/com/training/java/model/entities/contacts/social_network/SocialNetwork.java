@@ -1,4 +1,4 @@
-package com.training.java.model.entities.contacts.socialNetwork;
+package com.training.java.model.entities.contacts.social_network;
 
 import com.training.java.model.entities.contacts.Contact;
 

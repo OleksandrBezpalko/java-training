@@ -1,14 +1,14 @@
-package com.training.java.model.entities.contacts.socialNetwork;
+package com.training.java.model.entities.contacts.social_network;
 
 import java.util.Objects;
 
-public class Twitter extends SocialNetwork {
+public class Facebook extends SocialNetwork {
 
-    public Twitter() {
+    public Facebook() {
     }
 
-    public Twitter (String contactDate){
-        super.socialNetworkName = SocialNetworkName.TWITTER;
+    public Facebook (String contactDate){
+        super.socialNetworkName = SocialNetworkName.FACEBOOK;
         this.addContactData(contactDate);
     }
 
@@ -28,8 +28,8 @@ public class Twitter extends SocialNetwork {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Twitter twitter = (Twitter) o;
-        return data.equals(twitter.data);
+        Facebook facebook = (Facebook) o;
+        return data.equals(facebook.data);
     }
 
     @Override
