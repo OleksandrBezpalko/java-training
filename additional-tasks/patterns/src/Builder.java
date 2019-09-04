@@ -1,6 +1,6 @@
-public class Builder {
+public class BuilderApp {
     public static void main(String[] args) {
-        User user = User.newBuilder()
+        User user = new Builder()
                 .setId(0)
                 .setFirstName("John")
                 .setLastName("Doe")
@@ -24,27 +24,29 @@ class User {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
-
-    public static Builder newBuilder() {
-        return new User().new Builder();
-    }
+}
 
     public class Builder {
+        private User user;
+
         private Builder() {}
+
         public Builder setId(int id) {
-            User.this.id = id;
+            user.id = id;
             return this;
         }
+
         public Builder setFirstName(String firstName) {
-            User.this.firstName = firstName;
+            user.firstName = firstName;
             return this;
         }
+
         public Builder setLastName(String lastName) {
-            User.this.lastName = lastName;
+            user.lastName = lastName;
             return this;
         }
+
         public User build() {
-            return User.this;
+            return user;
         }
     }
-}
